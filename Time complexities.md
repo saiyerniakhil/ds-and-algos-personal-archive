@@ -93,3 +93,5 @@ Time Complexity: [ O( N ! ) ]
 examples:
 1. Generate permutation of a list of length N ( which would take n!)
 2. Naive bruteforce solution for Travelling Salesman problem
+
+> Efficient? *No* ! Avoid them until you have no alternatives
