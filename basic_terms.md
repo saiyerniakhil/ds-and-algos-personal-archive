@@ -11,3 +11,9 @@
  * Compiler Vs Interpreter:
  
    * Is Java a compiled or an interpreted language? (https://stackoverflow.com/questions/1326071/is-java-a-compiled-or-an-interpreted-programming-language#1326084)
+
+* Library Vs Framework:
+   * A *library* performs specific, well-defined operations.
+   
+     A *framework* is a skeleton where the application defines the "meat" of the operation by filling out the skeleton. The   skeleton still has code to link up the parts but the most important work is done by the application.
+   (https://stackoverflow.com/questions/148747/what-is-the-difference-between-a-framework-and-a-library#148759 )
