@@ -17,3 +17,7 @@
    
      A *framework* is a skeleton where the application defines the "meat" of the operation by filling out the skeleton. The   skeleton still has code to link up the parts but the most important work is done by the application.
    (https://stackoverflow.com/questions/148747/what-is-the-difference-between-a-framework-and-a-library#148759 )
+* Horizontal Scaling Vs Vertical Scaling:
+   * (https://stackoverflow.com/questions/11707879/difference-between-scaling-horizontally-and-vertically-for-databases#11715598)
+   * Horizontal Scaling means you scale by adding more machines.
+   * Vertical Scaling means you scale by adding more CPU Power.
