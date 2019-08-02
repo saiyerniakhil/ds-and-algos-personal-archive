@@ -42,7 +42,7 @@
           if(checkPrime(i)):
             print(i)
         ```
-* Efficient Ways to Find subarray of a given array
+* Efficient Ways to Find all subsets of a given array (non- contigious)
     - subarrays/subsets/powersets (http://rosettacode.org/wiki/Power_set#Python)
         ```
         def powerset(lst):
@@ -50,4 +50,10 @@
           for x in lst:
             result.extend([subset + [x] for subset in result])
           return result
+        ```
+* Efficient way to find all the contigious subarrays (see contigious vs non-contigious)
+    - (https://stackoverflow.com/questions/41576911/list-all-contiguous-sub-arrays)
+        ```
+        def subarr(lst):
+          return [lst[i:j+1] for i in range(0,len(lst)) for j in range(0,len(lst)-i+1)]
         ```
