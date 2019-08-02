@@ -42,3 +42,12 @@
           if(checkPrime(i)):
             print(i)
         ```
+* Efficient Ways to Find subarray of a given array
+    - subarrays/subsets/powersets (http://rosettacode.org/wiki/Power_set#Python)
+        ```
+        def powerset(lst):
+          result = [[]]
+          for x in lst:
+            result.extend([subset + [x] for subset in result])
+          return result
+        ```
